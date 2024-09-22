@@ -1,0 +1,24 @@
+.root {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--secondary-color);
+  box-sizing: border-box;
+  border-radius: var(--border-radius);
+  padding: var(--padding) calc(var(--padding) * 4) var(--padding) var(--padding);
+  color: white;
+  width: 80%;
+  outline: none;
+  border: none;
+}
+
+.iconWrapper {
+  background: white;
+  border-radius: var(--border-radius);
+  margin: 0 calc(var(--padding) * 2) 0 0;
+}
+
+.iconWrapper img {
+  padding: var(--padding);
+}

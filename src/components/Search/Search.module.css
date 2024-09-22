@@ -1,0 +1,13 @@
+.root {
+  position: absolute;
+  top: var(--padding);
+  right: var(--padding);
+  background: white;
+  z-index: 10;
+  padding: var(--padding);
+  border-bottom-left-radius: var(--border-radius);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
